@@ -1,4 +1,4 @@
-import { Star, TowerControl } from 'lucide-react';
+import { Star, Landmark } from 'lucide-react';
 import Spline from '@splinetool/react-spline';
 
 export default function Hero() {
@@ -39,7 +39,7 @@ export default function Hero() {
               <div className="rounded-3xl p-8 bg-white/70 dark:bg-slate-900/50 backdrop-blur-xl border border-white/60 dark:border-white/10">
                 <div className="flex items-center gap-3">
                   <div className="p-3 rounded-2xl bg-gradient-to-br from-sky-400 to-fuchsia-400 text-white shadow-lg">
-                    <TowerControl className="h-7 w-7" />
+                    <Landmark className="h-7 w-7" />
                   </div>
                   <div>
                     <p className="font-semibold text-slate-800 dark:text-white">Secure Trading</p>
